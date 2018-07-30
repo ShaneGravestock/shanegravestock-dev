@@ -7,7 +7,7 @@ install:
   - npm install
 script:
   - npm run build
-before_deploy:
+after_script:
    cd $TRAVIS_BUILD_DIR/build
    pwd
    touch CNAME
