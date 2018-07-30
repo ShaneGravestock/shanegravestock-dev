@@ -8,7 +8,6 @@ install:
 script:
   - npm run build
 deploy:
-  repo: ShaneGravestock.github.io
   provider: pages
   skip_cleanup: true
   local_dir: build/  
