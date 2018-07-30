@@ -9,7 +9,6 @@ script:
   - npm run build
 before_deploy:
   - cd $TRAVIS_BUILD_DIR/build
-  - pwd
   - touch CNAME
   - echo "shanegravestock.co.uk" > CNAME
 deploy:
