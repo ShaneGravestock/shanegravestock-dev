@@ -14,5 +14,4 @@ deploy:
   github_token: $GITHUB_API_KEY
   target-branch: master
   on:
-    tags: true
     all_branches: true
