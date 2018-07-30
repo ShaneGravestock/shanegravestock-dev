@@ -7,20 +7,11 @@ install:
   - npm install
 script:
   - npm run build
-after_success: |
-  if [ -n "$GITHUB_API_KEY" ]; then
-    pwd
-    cd $TRAVIS_BUILD_DIR/build
-    pwd
-    git init
-    git config user.name "ShaneGravestock"
-    git config user.email "shane@gravestock.net"
-    git remote add upstream "https://$GITHUB_API_KEY@github.com/ShaneGravestock/ShaneGravestock.github.io.git"
-    git fetch upstream
-    git reset upstream/master
-    touch CNAME
-    echo "shanegravestock.co.uk" > CNAME
-    git add -A .
-    git commit -m "rebuild pages"
-    git push -q upstream HEAD:master
-  fi
+deploy:
+  repo: ShaneGravestock.github.io
+  provider: pages
+  skip_cleanup: true
+  local_dir: build/  
+  api_key: $GITHUB_API_KEY
+  on:
+    branch: master
