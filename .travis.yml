@@ -7,11 +7,11 @@ install:
   - npm install
 script:
   - npm run build
-after_script:
-   cd $TRAVIS_BUILD_DIR/build
-   pwd
-   touch CNAME
-   echo "shanegravestock.co.uk" > CNAME
+before_deploy:
+  - cd $TRAVIS_BUILD_DIR/build
+  - pwd
+  - touch CNAME
+  - echo "shanegravestock.co.uk" > CNAME
 deploy:
   provider: pages
   skip_cleanup: true
