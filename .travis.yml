@@ -7,6 +7,9 @@ install:
   - npm install
 script:
   - npm run build
+before_deploy:
+   touch CNAME
+   echo "shanegravestock.co.uk" > CNAME
 deploy:
   provider: pages
   skip_cleanup: true
@@ -15,3 +18,4 @@ deploy:
   target-branch: master
   on:
     all_branches: true
+
