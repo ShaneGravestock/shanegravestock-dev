@@ -8,8 +8,9 @@ install:
 script:
   - npm run build
 deploy:
-  target-branch: master
   provider: pages
   skip_cleanup: true
   local_dir: build/  
   github_token: $GITHUB_API_KEY
+  on:
+    branch: master
