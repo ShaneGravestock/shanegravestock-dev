@@ -1,4 +1,4 @@
-# Shane Gravestock Portfolio
+# Shane Gravestock Portfolio [![Build Status](https://travis-ci.org/ShaneGravestock/ShaneGravestock.github.io.svg?branch=gh-pages)](https://travis-ci.org/ShaneGravestock/ShaneGravestock.github.io)
 A React.js based website that allows for easy reuse of components, so that it can stay up to date easily and will be readily available without much downtime
 
 The main achievement of this website is the amount of reuse that the main components of the gallery are being used - this allows for an easy state change update which renders a new gallery object as well as a new template for the video to play
