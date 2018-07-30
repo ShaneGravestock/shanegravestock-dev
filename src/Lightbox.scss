@@ -1,0 +1,151 @@
+.lightbox-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    
+}
+
+.lightbox {
+    background: #dfdfdf;
+    position: fixed;
+    width: 75%;
+    left: calc(25% / 2);
+    top: calc(20% / 2);
+    box-shadow: 0 0 10px 0px #333;
+    overflow: auto;
+
+    h2 {
+        text-transform: uppercase;
+        text-align: left;
+        padding: .5em;
+        margin: 0;
+
+    }
+
+    .content {
+        height: calc(100% - 3.5em);
+
+        iframe {
+            width: 100%;
+            height: auto;
+            border: none;
+        }
+    
+        .description {
+            font-size: 1em;
+            padding: 1em;
+            margin: 0;
+            text-align: left;
+            overflow-y: auto;
+        }
+    }
+    
+}
+
+.lightbox-header {
+    display: flex;
+    background-color: #fff;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+
+    .controls {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.close-lightbox {
+
+    &::after {
+        font-family: fontawesome;
+        content: "\f057";
+    }
+    padding: .25em;
+    color: #444;
+    font-size: 2em;
+    //background: #eee;
+    //border-radius: 0 0 0 25%;
+}
+
+.info-lightbox {
+
+    &::after {
+        font-family: fontawesome;
+        content: "\f05a";
+    }
+    padding: .25em;
+    color: #444;
+    font-size: 2em;
+    //background: #eee;
+    //border-radius: 0 0 0 25%;
+}
+
+.next-item {
+    position: fixed;
+    font-size: 3em;
+    color: #ddd;
+    &::before {
+        font-family: fontawesome;
+        content: "\f054";
+    }
+    top: calc(50% - 1em);
+    right: calc(5% / 2);
+}
+
+.prev-item {
+    position: fixed;
+    font-size: 3em;
+    color: #ddd;
+    &::before {
+        font-family: fontawesome;
+        content: "\f053";
+    }
+    top: calc(50% - 1em);
+    left: calc(5% / 2);
+}
+
+@media (max-width: 800px), (max-height: 600px) and (min-height: 375px) and (max-width: 1050px) {
+    .lightbox {
+        height: auto;
+        width: 90%;
+        top: calc(10% / 2);
+        left: 5%;
+    }
+
+    .next-item {
+        top: initial;
+        bottom: 2%;
+        &::before {
+            content: "\f078";
+        }
+    }
+
+    .prev-item {
+        top: initial;
+        bottom: 2%;
+        &::before {
+            content: "\f077";
+        }
+    }
+}
+
+@media (orientation: landscape) and (max-width: 750px) {
+    .lightbox {
+        height: auto;
+        width: 60%;
+        top: calc(10% / 2);
+        left: 20%;
+    }
+}
+
+.desc-toggle-false {
+    display: none;
+}
+
+.desc-toggle-true {
+    display: inherit;
+}

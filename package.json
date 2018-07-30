@@ -1,0 +1,31 @@
+{
+  "name": "shane-gravestock",
+  "version": "0.9.5",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "0.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "Shane Gravestock, sound recordist, design, mixer for coporate, commercial, short and feature films",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArranGravestock/shane-gravestock.git"
+  },
+  "author": "Arran Gravestock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArranGravestock/shane-gravestock/issues"
+  },
+  "homepage": "https://shanegravestock.github.io"
+}

@@ -1,0 +1,9 @@
+@mixin noSelect($cursor) {
+    -ms-touch-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    cursor: $cursor;
+}

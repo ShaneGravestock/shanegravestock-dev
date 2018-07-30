@@ -1,0 +1,14 @@
+@media (max-width: 1180px) {
+  .showreel-container {
+    padding: 56.25% 0 0 0;
+    color: red;
+  }
+}
+
+@media (min-width: 1180px) {
+  .showreel-container {
+    padding: 88vh 0 0 0;
+    color: red;
+  }
+}
+/*# sourceMappingURL=showreel.css.map */

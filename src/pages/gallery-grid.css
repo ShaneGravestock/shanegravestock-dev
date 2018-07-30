@@ -1,0 +1,52 @@
+.container-profile {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container-profile a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.container-profile header {
+  padding: 1em 0 1em 0;
+}
+
+.container-profile section {
+  padding: 2em 12% 6em 12%;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.container-profile section p {
+  margin: 0;
+}
+
+.company-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.company-grid img {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100px;
+  max-height: 100px;
+  margin: .5em;
+  -webkit-transition: .2s ease-in-out transform;
+  transition: .2s ease-in-out transform;
+  background-color: #ccc;
+}
+
+.company-grid img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+/*# sourceMappingURL=gallery-grid.css.map */

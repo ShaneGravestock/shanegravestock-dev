@@ -1,0 +1,154 @@
+.lightbox-container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
+
+.lightbox {
+  background: #dfdfdf;
+  position: fixed;
+  width: 75%;
+  left: calc(25% / 2);
+  top: calc(20% / 2);
+  -webkit-box-shadow: 0 0 10px 0px #333;
+          box-shadow: 0 0 10px 0px #333;
+  overflow: auto;
+}
+
+.lightbox h2 {
+  text-transform: uppercase;
+  text-align: left;
+  padding: .5em;
+  margin: 0;
+}
+
+.lightbox .content {
+  height: calc(100% - 3.5em);
+}
+
+.lightbox .content iframe {
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+.lightbox .content .description {
+  font-size: 1em;
+  padding: 1em;
+  margin: 0;
+  text-align: left;
+  overflow-y: auto;
+}
+
+.lightbox-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid #ccc;
+}
+
+.lightbox-header .controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.close-lightbox {
+  padding: .25em;
+  color: #444;
+  font-size: 2em;
+}
+
+.close-lightbox::after {
+  font-family: fontawesome;
+  content: "\f057";
+}
+
+.info-lightbox {
+  padding: .25em;
+  color: #444;
+  font-size: 2em;
+}
+
+.info-lightbox::after {
+  font-family: fontawesome;
+  content: "\f05a";
+}
+
+.next-item {
+  position: fixed;
+  font-size: 3em;
+  color: #ddd;
+  top: calc(50% - 1em);
+  right: calc(5% / 2);
+}
+
+.next-item::before {
+  font-family: fontawesome;
+  content: "\f054";
+}
+
+.prev-item {
+  position: fixed;
+  font-size: 3em;
+  color: #ddd;
+  top: calc(50% - 1em);
+  left: calc(5% / 2);
+}
+
+.prev-item::before {
+  font-family: fontawesome;
+  content: "\f053";
+}
+
+@media (max-width: 800px), (max-height: 600px) and (min-height: 375px) and (max-width: 1050px) {
+  .lightbox {
+    height: auto;
+    width: 90%;
+    top: calc(10% / 2);
+    left: 5%;
+  }
+  .next-item {
+    top: initial;
+    bottom: 2%;
+  }
+  .next-item::before {
+    content: "\f078";
+  }
+  .prev-item {
+    top: initial;
+    bottom: 2%;
+  }
+  .prev-item::before {
+    content: "\f077";
+  }
+}
+
+@media (orientation: landscape) and (max-width: 750px) {
+  .lightbox {
+    height: auto;
+    width: 60%;
+    top: calc(10% / 2);
+    left: 20%;
+  }
+}
+
+.desc-toggle-false {
+  display: none;
+}
+
+.desc-toggle-true {
+  display: inherit;
+}
+/*# sourceMappingURL=Lightbox.css.map */
