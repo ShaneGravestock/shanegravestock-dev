@@ -8,6 +8,7 @@ install:
 script:
   - npm run build
 before_deploy:
+   cd $TRAVIS_BUILD_DIR/build
    touch CNAME
    echo "shanegravestock.co.uk" > CNAME
 deploy:
@@ -18,4 +19,3 @@ deploy:
   target-branch: master
   on:
     all_branches: true
-
