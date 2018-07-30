@@ -12,6 +12,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   local_dir: build/  
-  api_key: $GITHUB_API_KEY
+  github_token: $GITHUB_API_KEY
   on:
     branch: master
