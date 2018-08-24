@@ -5,6 +5,15 @@ import Lightbox from './Lightbox'
 const galleryItems = [
     
         {
+        title: "TRILOGY - Short Magic Film - Maximilian Magic",
+        desc: "Sound effects and mix",
+        image_src: "Maximilian_Magic.jpg",
+        video_url: "https://www.youtube.com/watch?v=48kRARpCi84",
+        aspect_ratio: "16-9"
+    },    
+    
+    
+        {
         title: "Xbox Ad – Re-design",
         desc: "Re-design: Sound effects and mix",
         image_src: "Xbox Ad Re-Design.jpg",
@@ -13,7 +22,7 @@ const galleryItems = [
     },
     
         {
-        title: "CBBC – The Playlist",
+        title: "CBBC – The Playlist - Series 1 - Matt Edmondson",
         desc: "Sound recordist",
         image_src: "ThePlaylistMattEdmondson.jpg",
         video_url: "https://player.vimeo.com/video/230949179",
@@ -35,6 +44,14 @@ const galleryItems = [
         video_url: "https://player.vimeo.com/video/212563122",
         aspect_ratio: "2-39-1"
     }, 
+    
+            {
+        title: "CBBC – The Playlist - Series 2 - The Vamps",
+        desc: "Sound recordist",
+        image_src: "ThePlaylist_TheVamps.jpg",
+        video_url: "https://vimeo.com/286330495/8213017610",
+        aspect_ratio: "16-9"
+    },
     
     {
         title: "BASHH – Sexual Health Care",
