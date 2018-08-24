@@ -8,7 +8,7 @@ const galleryItems = [
         title: "TRILOGY - Short Magic Film - Maximilian Magic",
         desc: "Sound effects and mix",
         image_src: "Maximilian_Magic.jpg",
-        video_url: "https://www.youtube.com/watch?v=48kRARpCi84",
+        video_url: "https://www.youtube.com/embed/48kRARpCi84",
         aspect_ratio: "16-9"
     },    
     
@@ -49,7 +49,7 @@ const galleryItems = [
         title: "CBBC – The Playlist - Series 2 - The Vamps",
         desc: "Sound recordist",
         image_src: "ThePlaylist_TheVamps.jpg",
-        video_url: "https://vimeo.com/286330495/8213017610",
+        video_url: "https://player.vimeo.com/video/286330495",
         aspect_ratio: "16-9"
     },
     
