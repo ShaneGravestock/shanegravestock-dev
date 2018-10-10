@@ -11,7 +11,8 @@ const galleryItems = [
         video_url: "https://www.youtube.com/embed/48kRARpCi84",
         aspect_ratio: "16-9"
     },    
-        
+    
+    
         {
         title: "Xbox Ad – Re-design",
         desc: "Re-design: Sound effects and mix",
@@ -36,7 +37,7 @@ const galleryItems = [
         aspect_ratio: "16-9"
     },
     
-        {
+    {
         title: "Sunburn Trailer 1",
         desc: "Sound design and sound mix",
         image_src: "Sunburn-Trailer01.jpg",
@@ -44,7 +45,7 @@ const galleryItems = [
         aspect_ratio: "16-9"
     }, 
     
-        {
+            {
         title: "CBBC – The Playlist - Series 2 - The Vamps",
         desc: "Sound recordist",
         image_src: "ThePlaylist_TheVamps.jpg",
@@ -52,7 +53,7 @@ const galleryItems = [
         aspect_ratio: "16-9"
     },
     
-        {
+            {
         title: "Plastic Free Pledge - Bottle Boy",
         desc: "Sound recordist",
         image_src: "Tony-Burke-Bottle-Boy.jpg",
@@ -60,7 +61,7 @@ const galleryItems = [
         aspect_ratio: "16-9"
     },
     
-        {
+    {
         title: "BASHH – Sexual Health Care",
         desc: "Sound design and sound mix",
         image_src: "BASHH.jpg",
@@ -69,14 +70,14 @@ const galleryItems = [
         aspect_ratio: "16-9"
     },
     
-        {
+    {
         title: "The Physiological Society - Conquering Exam Stress",
         desc: "Sound design and sound mix",
         image_src: "Exam-Stress.jpg",
         video_url: "https://www.youtube.com/embed/-RZ86OB9hw4",
         aspect_ratio: "16-9"
     },
-        {
+    {
         title: "Fukui Looping",
         desc: "Sound design and mix",
         image_src: "Fukui_Looping.jpg",
@@ -92,7 +93,7 @@ const galleryItems = [
         aspect_ratio: "16-9"
     },
     
-        {
+    {
         title: "Instinctif Partners – Meet The Team",
         desc: "Sound design and sound mix",
         image_src: "IP-Meet-The-Team.jpg",
