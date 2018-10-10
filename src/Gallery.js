@@ -126,14 +126,6 @@ const galleryItems = [
     },
     
     {
-        title: "Sci-Fi 48 Hour Film Challenge",
-        desc: "Sound design, sound mix, sound recordist, and producer",
-        image_src: "48-Hour-Sci-Fi.jpg",
-        video_url: "https://player.vimeo.com/video/212563122",
-        aspect_ratio: "2-39-1"
-    }, 
-    
-    {
         title: "MT Wolf Soteria – Music Video",
         desc: "Sound recordist",
         image_src: "MT-Wolf-Soteria.jpg",
@@ -149,6 +141,13 @@ const galleryItems = [
         aspect_ratio: "16-9"
     },
     
+        {
+        title: "Sci-Fi 48 Hour Film Challenge",
+        desc: "Sound design, sound mix, sound recordist, and producer",
+        image_src: "48-Hour-Sci-Fi.jpg",
+        video_url: "https://player.vimeo.com/video/212563122",
+        aspect_ratio: "2-39-1"
+    }, 
 
 
 ]
