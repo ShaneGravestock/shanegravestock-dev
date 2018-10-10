@@ -38,11 +38,11 @@ const galleryItems = [
     },
     
     {
-        title: "Sci-Fi 48 Hour Film Challenge",
-        desc: "Sound design, sound mix, sound recordist, and producer",
-        image_src: "48-Hour-Sci-Fi.jpg",
-        video_url: "https://player.vimeo.com/video/212563122",
-        aspect_ratio: "2-39-1"
+        title: "Sunburn Trailer 1",
+        desc: "Sound design and sound mix",
+        image_src: "Sunburn-Trailer01.jpg",
+        video_url: "https://player.vimeo.com/video/292606380",
+        aspect_ratio: "16-9"
     }, 
     
             {
@@ -50,6 +50,14 @@ const galleryItems = [
         desc: "Sound recordist",
         image_src: "ThePlaylist_TheVamps.jpg",
         video_url: "https://player.vimeo.com/video/286330495",
+        aspect_ratio: "16-9"
+    },
+    
+            {
+        title: "Plastic Free Pledge - Bottle Boy",
+        desc: "Sound recordist",
+        image_src: "Tony-Burke-Bottle-Boy.jpg",
+        video_url: "https://player.vimeo.com/video/294219728",
         aspect_ratio: "16-9"
     },
     
@@ -132,6 +140,14 @@ const galleryItems = [
         video_url: "https://player.vimeo.com/video/193354776",
         aspect_ratio: "16-9"
     },
+    
+        {
+        title: "Sci-Fi 48 Hour Film Challenge",
+        desc: "Sound design, sound mix, sound recordist, and producer",
+        image_src: "48-Hour-Sci-Fi.jpg",
+        video_url: "https://player.vimeo.com/video/212563122",
+        aspect_ratio: "2-39-1"
+    }, 
 
 
 ]
