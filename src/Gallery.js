@@ -61,6 +61,22 @@ const galleryItems = [
         aspect_ratio: "16-9"
     },
     
+                 {
+        title: "Davent - Christmas Countdown",
+        desc: "Sound recordist",
+        image_src: "Davent.jpg",
+        video_url: "https://www.youtube.com/embed/0QaoCSdNX_0",
+        aspect_ratio: "16-9"
+    },
+    
+            {
+        title: "The Physiological Society - Conquering Exam Stress",
+        desc: "Sound design and sound mix",
+        image_src: "Exam-Stress.jpg",
+        video_url: "https://www.youtube.com/embed/-RZ86OB9hw4",
+        aspect_ratio: "16-9"
+    },
+    
     {
         title: "BASHH – Sexual Health Care",
         desc: "Sound design and sound mix",
@@ -70,13 +86,7 @@ const galleryItems = [
         aspect_ratio: "16-9"
     },
     
-    {
-        title: "The Physiological Society - Conquering Exam Stress",
-        desc: "Sound design and sound mix",
-        image_src: "Exam-Stress.jpg",
-        video_url: "https://www.youtube.com/embed/-RZ86OB9hw4",
-        aspect_ratio: "16-9"
-    },
+
     {
         title: "Fukui Looping",
         desc: "Sound design and mix",
@@ -133,13 +143,6 @@ const galleryItems = [
         aspect_ratio: "2-39-1"
     }, 
     
-    {
-        title: "MT Wolf Soteria – Music Video",
-        desc: "Sound recordist",
-        image_src: "MT-Wolf-Soteria.jpg",
-        video_url: "https://www.youtube.com/embed/jiYP6urAECk",
-        aspect_ratio: "16-9"
-    },
 
     {
         title: "UK Power Networks – Radio Ad",
