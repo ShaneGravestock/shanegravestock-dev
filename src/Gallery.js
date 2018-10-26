@@ -64,7 +64,7 @@ const galleryItems = [
                  {
         title: "Davent - Christmas Countdown",
         desc: "Sound recordist",
-        image_src: "Davent.jpg",
+        image_src: "DaventCalendar.jpg",
         video_url: "https://www.youtube.com/embed/0QaoCSdNX_0",
         aspect_ratio: "16-9"
     },
