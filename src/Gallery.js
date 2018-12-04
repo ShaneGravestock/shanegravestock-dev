@@ -30,10 +30,10 @@ const galleryItems = [
     },
     
         {
-        title: "UK Power Networks – Short",
-        desc: "Sound recordist and post sound",
-        image_src: "UK Power Networks_Short.jpg",
-        video_url: "https://player.vimeo.com/video/267422697",
+        title: "Just Cause 4 - Grapple Hook Air Lifter Pro Tips",
+        desc: "Post sound",
+        image_src: "JustCause4.jpg",
+        video_url: "https://www.youtube.com/embed/m3pe_YHYsEM",
         aspect_ratio: "16-9"
     },
     
@@ -66,6 +66,14 @@ const galleryItems = [
         desc: "Sound recordist",
         image_src: "DaventCalendar.jpg",
         video_url: "https://www.youtube.com/embed/0QaoCSdNX_0",
+        aspect_ratio: "16-9"
+    },
+    
+            {
+        title: "UK Power Networks – Short",
+        desc: "Sound recordist and post sound",
+        image_src: "UK Power Networks_Short.jpg",
+        video_url: "https://player.vimeo.com/video/267422697",
         aspect_ratio: "16-9"
     },
     
