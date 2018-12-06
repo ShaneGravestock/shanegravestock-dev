@@ -22,10 +22,10 @@ const galleryItems = [
     },
     
         {
-        title: "CBBC – The Playlist - Series 1 - Matt Edmondson",
+        title: "CBBC – The Playlist - Series 2 - Sabrina Carpenter",
         desc: "Sound recordist",
-        image_src: "ThePlaylistMattEdmondson.jpg",
-        video_url: "https://player.vimeo.com/video/230949179",
+        image_src: "ThePlaylist-Sabrina.jpg",
+        video_url: "https://player.vimeo.com/video/304843899",
         aspect_ratio: "16-9"
     },
     
