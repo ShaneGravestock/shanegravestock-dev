@@ -4,6 +4,16 @@ import Lightbox from './Lightbox'
 
 const galleryItems = [
     
+    
+        {
+        title: "MyGreenPod.com - Octopus",
+        desc: "Location sound and post sound",
+        image_src: "OctopusEnergy.jpg",
+        video_url: "https://player.vimeo.com/video/322276667",
+        aspect_ratio: "16-9"
+    },
+    
+    
         {
         title: "TRILOGY - Short Magic Film - Maximilian Magic",
         desc: "Sound effects and mix",
@@ -111,22 +121,7 @@ const galleryItems = [
         aspect_ratio: "16-9"
     },
     
-    {
-        title: "Instinctif Partners – Meet The Team",
-        desc: "Sound design and sound mix",
-        image_src: "IP-Meet-The-Team.jpg",
-        video_url: "https://player.vimeo.com/video/123753729",
-        aspect_ratio: "16-9"
-    },
-    
-    {
-        title: "Lidl - Warehouse Operations",
-        desc: "Dialogue edit and sound mix",
-        image_src: "Lidl.jpg",
-        video_url: "https://www.youtube.com/embed/g9UEOww8LCk",
-        aspect_ratio: "16-9"
-    },
-    
+   
     {
         title: "Imaginography Logo Reveal",
         desc: "Sound design and sound mix",
@@ -151,14 +146,6 @@ const galleryItems = [
         aspect_ratio: "2-39-1"
     }, 
     
-
-    {
-        title: "UK Power Networks – Radio Ad",
-        desc: "Voice over director, sound design, and sound mix",
-        image_src: "UKPowerNetworksRadioAd.jpg",
-        video_url: "https://player.vimeo.com/video/193354776",
-        aspect_ratio: "16-9"
-    },
 
 
 ]
