@@ -2,12 +2,20 @@ import React, { Component } from 'react';
 import './contact.css'
 
 class Contact extends Component {
+
+    state = {
+        first_name: 'shane',
+        last_name: 'gravestock',
+        tld: '.net'
+    }
+
     render() {
+
         return (
             <div className="contact-wrapper">
             <div className="header">
-                <h2>Contact me!</h2>
-                <p>Leave me a message and we'll talk shortly!</p>
+                <p>Contact me at {this.state.first_name}@{this.state.last_name}{this.state.tld}</p>
+                <p>Or leave me a message below</p>
             </div>
                 <form className="contact-form" method="POST" action="https://formspree.io/shane@gravestock.net">
                 <label>

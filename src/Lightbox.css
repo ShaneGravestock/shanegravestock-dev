@@ -12,7 +12,7 @@
   position: fixed;
   width: 75%;
   left: calc(25% / 2);
-  top: calc(20% / 2);
+  top: calc(5% / 2);
   -webkit-box-shadow: 0 0 10px 0px #333;
           box-shadow: 0 0 10px 0px #333;
   overflow: auto;
@@ -68,6 +68,7 @@
   padding: .25em;
   color: #444;
   font-size: 2em;
+  cursor: pointer;
 }
 
 .close-lightbox::after {
@@ -79,6 +80,7 @@
   padding: .25em;
   color: #444;
   font-size: 2em;
+  cursor: pointer;
 }
 
 .info-lightbox::after {
@@ -87,6 +89,7 @@
 }
 
 .next-item {
+  cursor: pointer;
   position: fixed;
   font-size: 3em;
   color: #ddd;
@@ -100,6 +103,7 @@
 }
 
 .prev-item {
+  cursor: pointer;
   position: fixed;
   font-size: 3em;
   color: #ddd;
