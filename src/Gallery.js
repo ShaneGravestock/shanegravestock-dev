@@ -31,13 +31,13 @@ const galleryItems = [
         aspect_ratio: "16-9"
     },
     
-        {
-        title: "CBBC – The Playlist - Series 2 - Sabrina Carpenter",
-        desc: "Sound recordist",
-        image_src: "ThePlaylist-Sabrina.jpg",
-        video_url: "https://player.vimeo.com/video/304843899",
-        aspect_ratio: "16-9"
-    },
+            {
+        title: "No Time to Waste for Rare Disease Patients",
+        desc: "Sound effects and mix",
+        image_src: "Dementia.jpg",
+        video_url: "https://www.youtube.com/embed/rIzhPoNLhig",
+        aspect_ratio: "2-39-1"
+    },    
     
         {
         title: "Just Cause 4 - Grapple Hook Air Lifter Pro Tips",
@@ -84,6 +84,14 @@ const galleryItems = [
         desc: "Sound recordist and post sound",
         image_src: "UK Power Networks_Short.jpg",
         video_url: "https://player.vimeo.com/video/267422697",
+        aspect_ratio: "16-9"
+    },
+    
+            {
+        title: "CBBC – The Playlist - Series 2 - Sabrina Carpenter",
+        desc: "Sound recordist",
+        image_src: "ThePlaylist-Sabrina.jpg",
+        video_url: "https://player.vimeo.com/video/304843899",
         aspect_ratio: "16-9"
     },
     
