@@ -36,7 +36,7 @@ const galleryItems = [
         desc: "Sound effects and mix",
         image_src: "Dementia.jpg",
         video_url: "https://www.youtube.com/embed/rIzhPoNLhig",
-        aspect_ratio: "2-39-1"
+        aspect_ratio: "16-9"
     },    
     
         {
