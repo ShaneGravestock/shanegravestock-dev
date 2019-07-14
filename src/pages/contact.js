@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import TextField from '@material-ui/core/TextField';
 import './contact.css'
+
 
 class Contact extends Component {
 
@@ -18,22 +20,48 @@ class Contact extends Component {
                 <p>Or leave me a message below</p>
             </div>
                 <form className="contact-form" method="POST" action="https://formspree.io/shane@gravestock.net">
-                <label>
-                    Name
-                    <input name="name" type="text"></input>
-                </label>
-                <label>
-                    Email
-                    <input name="_replyto" type="email"></input>
-                    </label>
-                <label>
-                    Subject
-                    <input name="_subject" type="text"></input>
-                    </label>
-                <label>
-                    Message
-                    <textarea name="message" type="text"></textarea>
-                </label>
+
+                    <TextField 
+                    variant="outlined"
+                     placeholder="Name" 
+                     className="white-input"
+                     label="Name"
+                     margin="normal"
+                     required
+                     name="name" 
+                     type="text"/>
+
+                    <TextField 
+                    variant="outlined"  
+                    placeholder="Email" 
+                    className="white-input"
+                    name="_replyto" 
+                    required
+                    label="Email"
+                    margin="normal"
+                    type="email"/>
+
+                    <TextField 
+                    variant="outlined"  
+                    className="white-input"
+                    placeholder="Subject"
+                     name="_subject" 
+                     label="Subject"
+                     margin="normal"
+                     type="text"/>
+
+                    <TextField 
+                    variant="outlined"
+                    className="white-input"
+                     multiline
+                     required
+                      placeholder="Message"
+                      label="Message"
+                       name="message" 
+                       rows="4"
+                       margin="normal"
+                       type="text"/>
+                
                     <button type="submit" value="Send">Submit</button>
                 </form>
 

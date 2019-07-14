@@ -13,6 +13,14 @@
   text-align: left;
 }
 
+.white-input {
+  background-color: white;
+}
+
+.white-input label {
+  color: #666;
+}
+
 .contact-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23,33 +31,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.contact-form label {
-  text-align: left;
-  font-family: arial;
-  font-size: 1em;
-  line-height: 1.5;
-}
-
-.contact-form label input, .contact-form label textarea {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 100%;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ccc;
-  border-radius: 3px;
-  padding: .5em .5em;
-  margin: 0 0 .5em 0;
-  font-family: arial;
-  font-size: 1em;
-}
-
-.contact-form label textarea {
-  resize: vertical;
-  line-height: 1.75;
-  min-height: 200px;
 }
 
 .contact-form button {
