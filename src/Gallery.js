@@ -15,10 +15,10 @@ const galleryItems = [
     
     
         {
-        title: "TRILOGY - Short Magic Film - Maximilian Magic",
-        desc: "Sound effects and mix",
-        image_src: "Maximilian_Magic.jpg",
-        video_url: "https://www.youtube.com/embed/48kRARpCi84",
+        title: "The Printmaker",
+        desc: "Location sound and post sound",
+        image_src: "The Printmaker.jpg",
+        video_url: "https://player.vimeo.com/video/348205226",
         aspect_ratio: "16-9"
     },    
     
@@ -48,10 +48,10 @@ const galleryItems = [
     },
     
     {
-        title: "Sunburn Trailer 1",
-        desc: "Sound design and sound mix",
-        image_src: "Sunburn-Trailer01.jpg",
-        video_url: "https://player.vimeo.com/video/292606380",
+        title: "Meet Meat",
+        desc: "Post sound",
+        image_src: "MeetMeat.jpg",
+        video_url: "https://www.youtube.com/embed/EIUf-VWZ2Hg",
         aspect_ratio: "16-9"
     }, 
     
@@ -64,10 +64,10 @@ const galleryItems = [
     },
     
                 {
-        title: "Plastic Free Pledge - Bottle Boy",
-        desc: "Sound recordist",
-        image_src: "Tony-Burke-Bottle-Boy.jpg",
-        video_url: "https://player.vimeo.com/video/294219728",
+        title: "Darksiders III - Keepers of the Void DLC",
+        desc: "Post sound",
+        image_src: "Darksiders3DLC.jpg",
+        video_url: "https://www.youtube.com/embed/05mo_zeBu8A",
         aspect_ratio: "16-9"
     },
     
@@ -78,6 +78,22 @@ const galleryItems = [
         video_url: "https://www.youtube.com/embed/0QaoCSdNX_0",
         aspect_ratio: "16-9"
     },
+    
+                    {
+        title: "Plastic Free Pledge - Bottle Boy",
+        desc: "Sound recordist",
+        image_src: "Tony-Burke-Bottle-Boy.jpg",
+        video_url: "https://player.vimeo.com/video/294219728",
+        aspect_ratio: "16-9"
+    },
+    
+            {
+        title: "TRILOGY - Short Magic Film - Maximilian Magic",
+        desc: "Sound effects and mix",
+        image_src: "Maximilian_Magic.jpg",
+        video_url: "https://www.youtube.com/embed/48kRARpCi84",
+        aspect_ratio: "16-9"
+    },    
     
             {
         title: "UK Power Networks – Short",
@@ -94,6 +110,14 @@ const galleryItems = [
         video_url: "https://player.vimeo.com/video/304843899",
         aspect_ratio: "16-9"
     },
+    
+        {
+        title: "Sunburn Trailer 1",
+        desc: "Sound design and sound mix",
+        image_src: "Sunburn-Trailer01.jpg",
+        video_url: "https://player.vimeo.com/video/292606380",
+        aspect_ratio: "16-9"
+    }, 
     
             {
         title: "The Physiological Society - Conquering Exam Stress",
