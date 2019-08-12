@@ -17,7 +17,7 @@ const galleryItems = [
         {
         title: "The Printmaker",
         desc: "Location sound and post sound",
-        image_src: "The Printmaker.jpg",
+        image_src: "ThePrintmaker.jpg",
         video_url: "https://player.vimeo.com/video/348205226",
         aspect_ratio: "16-9"
     },    
