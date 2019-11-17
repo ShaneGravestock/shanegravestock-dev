@@ -24,7 +24,7 @@ class Lightbox extends Component {
                 <PrevItem pos={this.props.item.count} func={this.props.func}/>
                 <div className="lightbox">
                     <div className="lightbox-header">
-                        <div class="lightbox-title">
+                        <div className="lightbox-title">
                             <h2>{this.props.item.title}</h2>
                             <h4>{this.props.item.desc}</h4>
                         </div>
