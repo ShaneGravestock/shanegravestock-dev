@@ -8,7 +8,7 @@ class Showreel extends Component {
                 padding: "1em 1em 1em 1em",
             }}>
                 <div className="showreel-container" style={{position:"relative"}}>
-                <iframe title="showreel" src="https://player.vimeo.com/video/107805398" style={{
+                <iframe loading="lazy" title="showreel" src="https://player.vimeo.com/video/107805398" style={{
                 position:"absolute",
                 top:0,
                 left:0,

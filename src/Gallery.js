@@ -220,7 +220,7 @@ class Image extends Component {
 
         return (
             <li className={className} onClick={onClick}>
-                <img src={require("./gallery/" + image_src)} alt={title}/>
+                <img loading="lazy" src={require("./gallery/" + image_src)} alt={title}/>
                 <span className="player-button">&#xf04b;</span>
             </li>
         )

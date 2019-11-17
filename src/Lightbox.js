@@ -35,7 +35,7 @@ class Lightbox extends Component {
 
                     <div className="content">
                         <div className={`_${this.props.item.aspect_ratio}`} style={{position:"relative"}}>
-                            <iframe title="video source" src={this.props.item.video_url} style={{
+                            <iframe loading="lazy" title="video source" src={this.props.item.video_url} style={{
                                 position:"absolute",
                                 top:"0",
                                 left:0,
