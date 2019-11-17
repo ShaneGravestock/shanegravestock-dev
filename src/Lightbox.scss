@@ -13,7 +13,7 @@
     position: fixed;
     width: 75%;
     left: calc(25% / 2);
-    top: calc(5% / 2);
+    top: calc(25% / 2);
     box-shadow: 0 0 10px 0px #333;
     overflow: auto;
 
@@ -51,10 +51,31 @@
     flex-wrap: wrap;
     justify-content: space-between;
     border-bottom: 2px solid #ccc;
+    flex-direction: column;
+    position: relative;
+
+    .lightbox-title {
+        padding: 0.5em;
+    }
+
+    h2 {
+        padding: 0;
+    }
+
+    h4 {
+        margin: 0;
+        text-align: left;
+        padding: 0;
+        color: rgba(50, 50, 50, 1);
+    }
 
     .controls {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        align-items: center;
         display: flex;
-        flex-wrap: wrap;
     }
 }
 

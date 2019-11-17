@@ -23,13 +23,15 @@ class Lightbox extends Component {
                 <NextItem pos={this.props.item.count} func={this.props.func}/>
                 <PrevItem pos={this.props.item.count} func={this.props.func}/>
                 <div className="lightbox">
-                <div className="lightbox-header">
-                    <h2>{this.props.item.title}</h2>
-                    <div className="controls">
-                        <Info func={this.toggleDesc}/>
-                        <CloseLightbox func={this.props.func}/>
+                    <div className="lightbox-header">
+                        <div class="lightbox-title">
+                            <h2>{this.props.item.title}</h2>
+                            <h4>{this.props.item.desc}</h4>
+                        </div>
+                        <div className="controls">
+                            <CloseLightbox func={this.props.func}/>
+                        </div>
                     </div>
-                </div>
 
                     <div className="content">
                         <div className={`_${this.props.item.aspect_ratio}`} style={{position:"relative"}}>
@@ -91,13 +93,4 @@ class CloseLightbox extends Component {
     }
 }
 
-class Info extends Component {
-
-    render() {
-        return (
-            <div className="info-lightbox" onClick={() => {this.props.func()}}></div>
-        )
-    }
-}
 export default Lightbox;
-
