@@ -3,7 +3,34 @@ import './Gallery.css';
 import Lightbox from './Lightbox'
 
 const galleryItems = [
+
+            {
+        title: "A Bright Warm Day in May",
+        desc: "Post sound",
+        image_src: "BrightWarmDay.jpg",
+        video_url: "https://player.vimeo.com/video/428026738",
+        aspect_ratio: "16-9"
+    },
     
+    
+                {
+        title: "Wake Up",
+        desc: "Post sound",
+        image_src: "WakeUp.jpg",
+        video_url: "https://player.vimeo.com/video/444984125",
+        aspect_ratio: "16-9"
+    },
+    
+                {
+        title: "Spray",
+        desc: "Location sound and post sound",
+        image_src: "Spray.jpg",
+        video_url: "https://player.vimeo.com/video/380208174",
+        aspect_ratio: "16-9"
+    },
+    
+       
+        
     
         {
         title: "MyGreenPod.com - Octopus",
