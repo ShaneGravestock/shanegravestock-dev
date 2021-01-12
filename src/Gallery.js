@@ -4,6 +4,15 @@ import Lightbox from './Lightbox'
 
 const galleryItems = [
 
+                        {
+        title: "Keratin",
+        desc: "Post sound. Music by James Warburton",
+        image_src: "Keratin.jpg",
+        video_url: "https://player.vimeo.com/video/497573191",
+        aspect_ratio: "16-9"
+    },
+            
+            
             {
         title: "A Bright Warm Day in May",
         desc: "Post sound",
