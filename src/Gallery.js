@@ -3,12 +3,22 @@ import './Gallery.css';
 import Lightbox from './Lightbox'
 
 const galleryItems = [
+  
+  
+  
+                          {
+        title: "Integral Powertrain",
+        desc: "Post sound and music",
+        image_src: "IntegralPowertrain.jpg",
+        video_url: "https://www.youtube.com/embed/2TGs5l3CTAk",
+        aspect_ratio: "16-9"
+    },
 
                         {
         title: "Keratin",
         desc: "Post sound. Music by James Warburton",
         image_src: "Keratin.jpg",
-        video_url: "https://player.vimeo.com/video/497573191",
+        video_url: "https://www.youtube.com/embed/eK7FY_YDs3g",
         aspect_ratio: "16-9"
     },
             
